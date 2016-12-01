@@ -22,6 +22,11 @@
     @yield('head')
 
     <link rel="stylesheet" href="{{ asset("css/app.css") }}">
+    <style>
+        body {
+            padding-top: 70px;
+        }
+    </style>
 
 </head>
 
