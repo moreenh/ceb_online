@@ -41,6 +41,6 @@ Employee level 2:
 	Connection requests view
 
 	Connection request view - to cancel or approve connection
-	
+
 	Overall energy consumption report
 
