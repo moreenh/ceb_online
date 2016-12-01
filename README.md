@@ -5,6 +5,8 @@ Database Systems Assignment
 
 Administrator:
 
+    Administrator home page
+
 	Register employee view
 
 	Manage employee accounts view
@@ -13,6 +15,8 @@ Administrator:
 
 
 Customer:
+
+    Customer home page
 
 	Apply for new connection
 
@@ -29,6 +33,8 @@ Customer:
 
 Employee level 1:
 
+    Employee level 1 home page
+
 	Register customer view
 
 	Manage customer accounts view
@@ -37,6 +43,8 @@ Employee level 1:
 
 
 Employee level 2:
+
+    Employee level 2 home page
 
 	Connection requests view
 
