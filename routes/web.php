@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/register-employee-account', function () {
+    return view('user_administrator.register_employee_account.main');
+});
