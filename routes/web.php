@@ -32,11 +32,17 @@ Route::get('/request-connection', function () {
 });
 
 //Employee Type One's simple GET routes
+Route::get('/add-customer-category', function () {
+    return view('user_employee_type_one.add_customer_category.main');
+});
 Route::get('/connection-requests', function () {
     return view('user_employee_type_one.connection_requests.main');
 });
 Route::get('/overall-energy-consumption', function () {
     return view('user_employee_type_one.overall_energy_consumption.main');
+});
+Route::get('/update-unit-costs', function () {
+    return view('user_employee_type_one.update_unit_costs.main');
 });
 
 //Employee Type Two's simple GET routes
