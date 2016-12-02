@@ -55,3 +55,7 @@ Route::get('/register-customer-account', function () {
 Route::get('/enter-meter-reading', function () {
     return view('user_employee_type_two.enter_meter_reading.main');
 });
+
+Route::get('/view-bills-list', function () {
+    return view('user_customer.bill_details.main');
+});
