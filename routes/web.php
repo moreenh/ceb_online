@@ -15,6 +15,37 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+//Administrator's simple GET routes
 Route::get('/register-employee-account', function () {
     return view('user_administrator.register_employee_account.main');
+});
+Route::get('/employee-accounts', function () {
+    return view('user_administrator.employee_accounts.main');
+});
+
+//Customer's simple GET routes
+Route::get('/current-connections', function () {
+    return view('user_customer.current_connections.main');
+});
+Route::get('/request-connection', function () {
+    return view('user_customer.request_connection.main');
+});
+
+//Employee Type One's simple GET routes
+Route::get('/connection-requests', function () {
+    return view('user_employee_type_one.connection_requests.main');
+});
+Route::get('/overall-energy-consumption', function () {
+    return view('user_employee_type_one.overall_energy_consumption.main');
+});
+
+//Employee Type Two's simple GET routes
+Route::get('/customer-accounts', function () {
+    return view('user_employee_type_two.customer_accounts.main');
+});
+Route::get('/register-customer-account', function () {
+    return view('user_employee_type_two.register_customer_account.main');
+});
+Route::get('/enter-meter-reading', function () {
+    return view('user_employee_type_two.enter_meter_reading.main');
 });
