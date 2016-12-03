@@ -12,7 +12,7 @@ use mysqli;
  */
 class Connection
 {
-    //Needs to be changed on
+    //Needs to be changed on device specifically
     private $servername = "localhost";
     private $username = "root";
     private $password = "yasas22";
