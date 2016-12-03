@@ -28,25 +28,10 @@ Customer:
 
 	Personal account view
 
-	Energy consumption comparison with previous months and average values of the country view
+    Energy consumption comparison with previous months and average values of the country view
 
 
 Employee type one:
-
-    Employee level 2 home page
-
-    Add customer category view
-
-	Connection request view - to cancel or approve connection
-
-	Connection requests view
-
-	Overall energy consumption report
-
-	update unit costs view
-
-
-Employee type two:
 
     Employee level 1 home page
 
@@ -56,7 +41,22 @@ Employee type two:
 
     Enter meter readings view
 
-	Register customer view
+    Register customer view
+
+
+Employee type two:
+
+    Employee level 2 home page
+
+    Add customer category view
+
+    Connection request view - to cancel or approve connection
+
+    Connection requests view
+
+    Overall energy consumption report
+
+    update unit costs view
 
 
 
