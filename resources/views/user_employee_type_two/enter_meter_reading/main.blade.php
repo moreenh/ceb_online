@@ -33,7 +33,7 @@
                 <input type="date" class="form-control" id="pre_date">
             </div>
         </div>
-        <div class="form-inline"style="height:50px;">
+        <div class="form-inline" style="height:50px;">
             <label class="control-label col-sm-0" for="meter_reading">Current Meter Reading:</label>
             <input type="text" class="form-control" id="meter_reading">
             <div class="form-group">
