@@ -15,7 +15,7 @@ class Connection
     //Needs to be changed on device specifically
     private $servername = "localhost";
     private $username = "root";
-    private $password = "yasas22";
+    private $password = null;
 
     private $conn;
     private static $connection;
